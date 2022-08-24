@@ -86,6 +86,18 @@ p {
     margin: 15px 0;
 }
 
+h1 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
 /* =============== utility classes ================ */
 
 .flex {
@@ -129,7 +141,7 @@ p {
 
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./src/img/fundo.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fundo.jpg) center/cover no-repeat;
     color: #fff;
 }
 
@@ -151,7 +163,12 @@ p {
 
 .brand-name {
     letter-spacing: 5px;
+    font-weight: bold;
     cursor: pointer;
+}
+
+.brand-name a {
+    color: var(--white);
 }
 
 .navBtn {
@@ -318,6 +335,7 @@ blockquote span {
     color: var(--lightGrey);
     font-size: 28px;
     opacity: 0.9;
+    padding-bottom: 20px;
 }
 
 .section-one-left div p {
@@ -349,13 +367,13 @@ blockquote span {
 }
 
 .work-img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("./src/img/foto1.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../img/foto1.jpg) center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
 
 .work-img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("./src/img/foto2.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url(../img/foto2.jpg) center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
@@ -415,6 +433,11 @@ blockquote span {
 /* section three */
 .section-three {
     margin: 40px 0;
+}
+
+.section-three h1 {
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .single-img {
