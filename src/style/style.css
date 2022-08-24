@@ -131,7 +131,7 @@ p {
 
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/src/img/fundo.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./src/img/fundo.jpg") center/cover no-repeat;
     color: #fff;
 }
 
@@ -301,7 +301,7 @@ blockquote span {
 
 .shadow {
     /* height: 100vh;
-    background: url("/src/img/Foto.jpg") center/cover no-repeat; */
+    background: url("./src/img/Foto.jpg") center/cover no-repeat; */
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -351,13 +351,13 @@ blockquote span {
 }
 
 .work-img-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/src/img/foto1.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("./src/img/foto1.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
 
 .work-img-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("/src/img/foto2.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("./src/img/foto2.jpg") center/cover no-repeat;
     height: 400px;
     transition: var(--transition);
 }
