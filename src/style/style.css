@@ -131,7 +131,7 @@ p {
 
 .header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./src/img/fundo.jpg") center/cover no-repeat;
+    background: url("./src/img/fundo.jpg") center/cover no-repeat;
     color: #fff;
 }
 
